@@ -1,3 +1,160 @@
-.hero {
+html {
+    background-image: linear-gradient(to bottom right, #5c0aad, #e016b1);
+height: 1200px;
 
+}
+
+body{
+    margin: 30px;
+}
+
+
+
+.header {
+    color: black;
+    margin:20px;
+    margin-top:30px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: inherit;
+    width:400px;
+}
+
+ol{
+    width: inherit;
+    display: inherit;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inherit;
+}
+
+.logo {
+    width:50px;
+    height:50px;
+    background-color: teal;
+    border-radius: 50%;
+}
+
+.heart-logo{
+width:5%;
+}
+.header ol {
+    padding: 0;
+    display: flex;
+}
+.header li {
+    list-style: none;
+    margin: 0 7px;
+
+}
+
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?szvuie');
+    src:  url('fonts/icomoon.eot?szvuie#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?szvuie') format('truetype'),
+      url('fonts/icomoon.woff?szvuie') format('woff'),
+      url('fonts/icomoon.svg?szvuie#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+.logo-heart{
+    font-size: 40px;
+    color:white;
+    margin-left: 20px;
+
+}
+
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-heart:before {
+    content: "\e9da";
+  }
+
+  .line-head{
+      /* line-height: 1px; */
+  }
+
+
+.hero-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   height: 450px;
+}
+
+.title-details{
+    display: block;
+}
+
+.hero-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 90px;
+    color:white;
+    margin: 5px 0px 5px 0px;
+}
+
+.invitation{
+text-align: center;
+    font-size: 2.5em;
+    font-family: 'Shadows Into Light', cursive;
+    color:white
+
+}
+
+.subtitle {
+    font-size: 30px;
+}
+.hero-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.presentation-container{
+    margin: 20px;
+    margin-top:30px;
+    padding-top: 10px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.pres-size{
+    font-size:65px;
+    text-align: center;
 }
