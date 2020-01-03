@@ -129,6 +129,7 @@ width:5%;
     margin: 5px 0px 5px 0px;
 }
 
+/* >>>>>>>>>>>>>>> presentación <<<<<<<<<<<<<<<<<<  */
 .invitation{
 text-align: center;
     font-size: 2.5em;
@@ -160,6 +161,7 @@ text-align: center;
     text-align: center;
 }
 
+/* >>>>>>>>>>>>>>>>>>nuestra historia <<<<<<<<<<<<<<<<<< */
 .story{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -188,6 +190,7 @@ text-align: center;
 margin: 20px;
 }
 
+/* >>>>>>>>>>>>>>>>>> footer <<<<<<<<<<<<<<<<< */
 #footer{
     text-align: left;
     /* background-color: blueviolet; */
@@ -201,4 +204,93 @@ margin: 20px;
 .line-footer{
     margin-top:10px;
     color:wheat;
+}
+
+/* >>>>>>>>>>>>>>> estilos de la galeria <<<<<<<<<<<<<<<<<<*/
+
+.gallery{
+    list-style: none;
+    width: 90%;
+    box-sizing: border-box;
+    margin:auto;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.gallery li {
+    margin:5px;
+}
+
+.gallery img{
+    width:220px;
+    height: 200px;
+}
+
+/* Estilos del modal */
+
+.modal{
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.83);
+    width: 100%;
+     height: 100%;
+}
+
+.modal h3{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin:15px 0;
+}
+
+.imagen{
+    /* border:1px solid red; */
+    width:100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin:0 10px;
+    font-weight: 600;
+}
+
+/* Para editar sólo la 2da etiqueta a lo hacemos de esta manera
+ */
+
+.imagen a nth:child(2){
+    margin:0;
+    height: 100%;
+}
+
+.imagen img {
+    width:500px;
+    max-width:100%;
+    height: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.boton-modal{
+
+    display: block;
+    background-color: #fff;
+    color:#000;
+    text-align: center;
+    margin:auto;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50%;
+    font-weight: 800;
 }
